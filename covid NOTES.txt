@@ -1,0 +1,17 @@
+Data downloaded January 12th 2023 from >>> github.com/owid/covid-19-data/raw/master/public/data/owid-covid-data.csv  
+
+We'll compare Nigeria's covid profile with countries that have the same HDI as Nigeria. We concluded that HDI is a better yardstick to compare countries rather than the common GDP or GDP Per Capita according to this article >>> sdg-action.org/the-human-development-index-a-better-indicator-for-success
+
+
+Columns
+
+'date', 'location', 'new_cases', 'total_cases','new_deaths', 'total_deaths', 'new_tests', 'total_tests', 'new_vaccinations', 'total_vaccinations', 'population', 'median_age', 'human_development_index', 'hand_washing_facilities'
+
+
+covid.loc[covid['location'] == 'Nigeria', ['new_deaths']]
+
+['Africa', 'Asia', 'Europe', 'North America', 'Oceania', 'South America'
+
+
+
+
